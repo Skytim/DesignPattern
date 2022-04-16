@@ -2,8 +2,8 @@ package tim.tsai.structural.bridge.devices;
 
 public class Tv implements Device{
     private boolean on = false;
-    private int volume = 30;
-    private int channel = 1;
+    private int volume = 50;
+    private int channel = 10;
 
     @Override
     public boolean isEnabled() {
