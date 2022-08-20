@@ -9,6 +9,10 @@ import java.util.List;
 public class CompoundShape extends BaseShape{
     protected List<Shape> children = new ArrayList<>();
 
+    /**
+     * 由其他形狀物件組成的復合形狀
+     * @param components 多個形狀
+     */
     public CompoundShape(Shape... components) {
         super(0, 0, Color.BLACK);
         add(components);
